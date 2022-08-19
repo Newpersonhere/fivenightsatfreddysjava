@@ -18,7 +18,7 @@ public class Freddy {
 		}
 		if (Office.monitorUp == true && Office.door2open == true && inRoom == 4) {
 			if (Office.door2open == true) {
-				playerdeath = true;
+				playerdeath = false;
 				inRoom = 5;
 			}
 		} else {
