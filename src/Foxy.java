@@ -21,7 +21,7 @@ public class Foxy {
 					stage = 1;
 					Window.knock.play();
 				} else {
-					playerdeath = true;
+					playerdeath = false;
 				}
 			}
 		}
