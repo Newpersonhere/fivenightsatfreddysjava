@@ -14,7 +14,7 @@ public class Chicka {
 	public static void tick() {
 		if (inRoom == 8 && Office.door2open == true && Office.monitorUp == true) {
 			inRoom = 9;
-			playerdeath = true;
+			playerdeath = false;
 			return;
 		}
 		int rand1 = 1 + (int) (Math.random() * Difficulty);
