@@ -4,7 +4,7 @@ public class Office {
 	public static boolean door1open = true;
 	public static boolean door2open = true;
 	public static boolean monitorUp = false;
-	public static double powerRemaining = 100;
+	public static double powerRemaining = 999;
 	public static int devicedUsed;
 
 	static double getPower() {
@@ -14,19 +14,19 @@ public class Office {
 	public static int getUsage() {
 		int usage = 0;
 		if (light1on == true) {
-			usage = usage + 1;
+			usage = usage + 0;
 		}
 		if (light2on == true) {
-			usage = usage + 1;
+			usage = usage + 0;
 		}
 		if (door1open == false) {
-			usage = usage + 1;
+			usage = usage + 0;
 		}
 		if (door2open == false) {
-			usage = usage + 1;
+			usage = usage + 0;
 		}
 		if (monitorUp == true) {
-			usage = usage + 1;
+			usage = usage + 0;
 		}
 		return usage;
 	}
